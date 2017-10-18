@@ -79,7 +79,7 @@ export PATH="$PATH:/Users/KyleZhou/Library/Android/sdk/platform-tools/"
 
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-export NVM_DIR=~/.nvm
-source /usr/local/opt/nvm/nvm.sh
+#export NVM_DIR=~/.nvm
+#source /usr/local/opt/nvm/nvm.sh
 
-alias em='cd ~/Sites/EventMobi/'
+#alias em='cd ~/Sites/EventMobi/'
