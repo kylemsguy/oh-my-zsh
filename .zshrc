@@ -53,7 +53,7 @@ alias printout="/usr/local/bin/print"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python virtualenv rake-fast sudo svn nyan) # zsh-syntax-highlighting)
+plugins=(git python virtualenv rake-fast sudo svn) # nyan zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -75,7 +75,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export PATH="$PATH:/Users/KyleZhou/Library/Android/sdk/platform-tools/"
+export PATH="$PATH:/home/kyle/Android/Sdk/platform-tools"
 
 if which pyenv &> /dev/null; then eval "$(pyenv init -)"; fi
 
